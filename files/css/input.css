@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: graphik;
+    src: url(/font/GraphikRegular.otf);
+}
+
+main{
+    background-image: url(/imgs/background.svg);
+    background-attachment: fixed;
+
+}
+
+.card{
+    @apply bg-white shadow-md p-6 rounded-md
+}
+
+.text{
+    @apply text-[12px] text-gray-400 -mt-[5px]
+}
+
+/* main{
+    color: #707078;
+} */
